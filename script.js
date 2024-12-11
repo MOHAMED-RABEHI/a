@@ -75,13 +75,13 @@ const sum = total / 14;
 const name=document.getElementById('name').value;
 const res = document.getElementById('res');
 if(sum < 10){
-    res.innerHTML = `The Name is: ${name} <br> The result is: ${sum} <br>  Faible Moyenne`;
+    res.innerHTML = `الاسم: ${name} <br> النتيجة: ${sum} <br> متوسط ضعيف`;
 
      
 } 
 else if(sum < 15) {
-    res.innerHTML = `The Name is: ${name} <br> The result is: ${sum}  <br>  Moyenne`;
+    res.innerHTML = `الاسم: ${name} <br> النتيجة: ${sum} <br> متوسط`;
 } 
-else { res.innerHTML = `The Name is: ${name} <br> The result is: ${sum}  <br> Bonne Moyenne`;
+else {res.innerHTML = `الاسم: ${name} <br> النتيجة: ${sum} <br> متوسط جيد`
 }
 }
