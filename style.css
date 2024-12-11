@@ -3,13 +3,57 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 140px ;
     gap: 15px;
+    margin: 0 100px;
 }
-.buton{
+.button{
     background-color: bisque;
     border: 50%;
     text-align: center;
     color: black;
     margin-top: 15px;
 }
+.flex-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1px;
+}
+.flex-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+}
+.flex input{
+    width: 100%;
+}
+.inputb{
+    width: 100%;
+    flex-direction: row;
+    display: flex;
+}
+.inputa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%
+    ;
+    margin: 0  0 10px 350px;
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .flex-1 {
+      flex-direction: column;
+    }
+    .inputa{
+        flex-direction: column;
+        width: 60%;
+        margin: 5px 5px 10px 50px ;
+        display: flex;
+
+    }
+  }
+  
